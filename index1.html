@@ -1,0 +1,222 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Web </title>
+    <style>
+    body{
+      margin:0;
+      background:linear-gradient(to right,blue,lightgrey);
+      background-size:cover;
+      height:100vh;
+      width:100%;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  gap:34px;
+  font-size:34px;
+  margin:34px;
+}
+.logo img{
+  width:70px;
+  border-radius:50%;
+}
+.nav {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:12px;
+  background:rgba(0,0,0,0.2);
+  width:100%;
+}
+.menu{
+  display:flex;
+}
+.menu a{
+  background:linear-gradient(to right,aqua,blue);
+  color:white;
+  padding:12px 33px;
+  margin:10px;
+  text-decoration:none;
+  border-radius:34px;
+  font-size:23px;
+}
+.menu a:hover{
+  background:blue;
+}
+.service{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  margin-top:50px;
+  font-size:20px;
+}
+.service img{
+  width:300px;
+  border-radius:20px;
+}
+.text{
+  width:400px;
+  color:white;
+}
+.content{
+  background:linear-gradient(to right,teal, white,teal),rgba(255,255,255,0.1);
+  backdrop-filter:blur(16px) ;
+  color:teal;
+  text-align:center;
+  margin:auto;
+  margin-top:20px;
+  box-shadow: lightgreen;
+  max-width:500px;
+  height:12vh;
+  border-radius:30px;
+}
+button{
+  background:linear-gradient(to right,teal, white);
+  border-radius:34px;
+  margin:34px;
+  padding:12px 24px;
+  color:black;
+  border:none;
+  text-align:center;
+  transition:0.4s;
+}
+button:hover{
+  transform: translateY(-12px);
+}
+.center{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:34px;
+}
+.card{
+  background:linear-gradient(to right,blue,black)rgba(255,255,255,0.1);
+  color:white;
+  padding:12px 24px ;
+  border-radius:33px;
+  cursor:pointer;
+  transition:0.4s;
+  margin:30px;
+}
+.card:hover{
+  transform: translateY(-12px);
+  font-size:20px;
+}
+.text1{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:30px;
+}
+.footer{
+  background:rgba(0,0,0,0.1);
+  color:black;
+  padding:23px;
+  text-align:center;
+  margin-top:60px;
+}
+@media(max-width:600px){
+  
+  .menu{
+  flex-direction: column ;
+  text-align:center ;
+  }
+  .nav{
+    flex-direction: column;
+  }
+  .service{
+    flex-direction: column;
+  }
+  . service img{
+    width:200px;
+  }
+  .logo{
+    flex-direction: column;
+    text-align:center;
+  }
+  .center{
+    flex-direction: column;
+    text-align:center;
+    gap:12px;
+  }
+  .content{
+    max-width:300px;
+    height:42vh;
+  }
+  button{
+    flex-direction:column;
+  }
+  .footer{
+    flex-direction: column;
+    text-align:center;
+  }
+
+}
+</style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img src="log.jpg">
+        <h2><span style="color:white;">Rahul</span>sr</h2>
+      </div>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Help</a>
+        </div>
+    </div>
+    <div class="service">
+      <div class="text">
+      <h2>hi I am a Rahul I create a simple website</h2>
+      </div>
+      <img src="msd.png">
+      </div>
+      <div class="content">
+        <h1>About</h1>
+        <p>hii,i am Rahul i prectice html and css </p><p>daily and i build my skills</p>
+        <button>See project</button>
+      </div>
+      <div class="text1"><h1>Skills</h1></div>
+      <div class="center">
+  <div class="card">🧩Python</div>
+  <div class="card">🖥️Html</div>
+  <div class="card">🎨Css</div>
+      </div>
+      <div class="footer">
+        <h1>2026 copyright claim</h1>
+ </div>
+  </body>
+  
+</html>
+
+
+        
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
